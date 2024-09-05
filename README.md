@@ -5,6 +5,9 @@ First time:
 > sudo apt install i2c-tools
 > chmod 777 start.sh
 > chmod 777 readCO2.py
+> sudo visudo
+> username ALL=(ALL) NOPASSWD: /usr/sbin/i2cget, /usr/sbin/i2cset
+
 
 Run(When turn the sensor on):
 > ./start.sh
